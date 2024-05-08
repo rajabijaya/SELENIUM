@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[BROWSER GOT LUNCHED SUCCESSFULLY]]>
+    </line>
+    <line>
+      <![CDATA[BROWSER GOT MAXIMIZED SUCCESSFULLY]]>
+    </line>
+    <line>
+      <![CDATA[LOGGED OUT SUCCESSFULLY]]>
+    </line>
+    <line>
+      <![CDATA[BROWSER CLOSED SUCCESSFULLY]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-04-03T16:30:41 IST" name="Default suite" finished-at="2024-04-03T16:31:20 IST" duration-ms="38827">
+    <groups>
+    </groups>
+    <test started-at="2024-04-03T16:30:41 IST" name="Default test" finished-at="2024-04-03T16:31:20 IST" duration-ms="38827">
+      <class name="advanceSelenium1.TC_DWS_001">
+        <test-method is-config="true" signature="toLunch(java.lang.String)[pri:0, instance:advanceSelenium1.TC_DWS_001@dbf57b3]" started-at="2024-04-03T16:30:41 IST" name="toLunch" finished-at="2024-04-03T16:31:09 IST" duration-ms="28246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BROWSER GOT LUNCHED SUCCESSFULLY]]>
+            </line>
+            <line>
+              <![CDATA[BROWSER GOT MAXIMIZED SUCCESSFULLY]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toLunch -->
+        <test-method is-config="true" signature="toLogin()[pri:0, instance:advanceSelenium1.TC_DWS_001@dbf57b3]" started-at="2024-04-03T16:31:09 IST" name="toLogin" finished-at="2024-04-03T16:31:17 IST" duration-ms="7502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toLogin -->
+        <test-method signature="ToClickOnBook()[pri:0, instance:advanceSelenium1.TC_DWS_001@dbf57b3]" started-at="2024-04-03T16:31:17 IST" name="ToClickOnBook" finished-at="2024-04-03T16:31:18 IST" duration-ms="1312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToClickOnBook -->
+        <test-method is-config="true" signature="toLogout()[pri:0, instance:advanceSelenium1.TC_DWS_001@dbf57b3]" started-at="2024-04-03T16:31:18 IST" name="toLogout" finished-at="2024-04-03T16:31:20 IST" duration-ms="1247" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LOGGED OUT SUCCESSFULLY]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toLogout -->
+        <test-method is-config="true" signature="toCLose()[pri:0, instance:advanceSelenium1.TC_DWS_001@dbf57b3]" started-at="2024-04-03T16:31:20 IST" name="toCLose" finished-at="2024-04-03T16:31:20 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[BROWSER CLOSED SUCCESSFULLY]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCLose -->
+      </class> <!-- advanceSelenium1.TC_DWS_001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -16,7 +16,12 @@ public class ToTakeScreenshotOfEntireWebpage {
 		driver.manage().window().maximize();
 		
 		driver.get("https://www.youtube.com/");
-		 
+		Thread.sleep(4000);
+		//To Take Screenshot
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File temp = ts.getScreenshotAs(OutputType.FILE);
+		File src = new File("./errorShots/YT.png");
+		FileHandler.copy(temp, src);
 		
 
 	}

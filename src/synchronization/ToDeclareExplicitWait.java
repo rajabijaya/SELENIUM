@@ -13,7 +13,7 @@ public class ToDeclareExplicitWait {
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+	 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		
 		driver.get("https://www.shoppersstack.com/");
 		driver.findElement(By.xpath("//img[@alt='APPLE iPhone 14 Pro']")).click();

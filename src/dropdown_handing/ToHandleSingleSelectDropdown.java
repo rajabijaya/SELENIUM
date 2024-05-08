@@ -45,10 +45,9 @@ public class ToHandleSingleSelectDropdown {
 		List<WebElement> allMonths = monthSelect.getOptions();
 		for (WebElement month : allMonths) {
 			System.out.println(month.getText());
-			monthSelect.selectByVisibleText(month.getText());  //magic
+			monthSelect.selectByVisibleText(month.getText()); // magic
 			Thread.sleep(2000);
 		}
 
 	}
-
 }
